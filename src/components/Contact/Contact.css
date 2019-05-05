@@ -1,0 +1,124 @@
+.Contact {
+    background-color: #ececec;
+    margin-top: -20rem;
+    padding-top: 20rem;
+}
+
+.form-control {
+    min-height: 5rem;
+    border-radius: 0.8rem;
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat';
+}
+
+.text-block--1 {
+    color: #949494;
+    line-height: 2.4rem;
+}
+
+.text-block--2 {
+    color: #000;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+
+.form {
+    margin-bottom: 6.4rem;
+}
+
+.footer {
+    margin-top: 10rem;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.link,
+.link:link,
+.link:active {
+    color: #000;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: #333;
+}
+
+.form-check-label {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+    .Contact {
+        margin-top: 8.5rem;
+    }
+
+    .form {
+        margin-bottom: 3.5rem;
+    }
+
+    .form-control {
+        min-height: 4rem;
+        margin-bottom: 0.5em;
+    } 
+
+    .form-check {
+        margin-left: 0.5rem;
+        margin-right: 2rem;
+    }
+
+    .footer {
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .Contact {
+        margin-top: -28rem;
+        padding-top: 15rem;
+    }
+
+    .footer {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .Contact {
+        margin-top: -29rem;
+        padding-top: 15rem;
+    }
+
+    .form-control {
+        min-height: 4.5rem;
+        margin-bottom: 0.5em;
+    } 
+
+    .footer {
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Contact {
+        margin-top: -25rem;
+        padding-top: 20rem;
+    }
+
+    .SharingItem img {
+        height: 15rem;
+    }
+}

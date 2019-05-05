@@ -1,0 +1,44 @@
+.Sharing {
+    position: relative;
+    z-index: 1;
+    height: 61rem;
+}
+
+.SharingBlock {
+    position: absolute;
+    z-index: 3;
+    width: 78%;
+}
+
+@media (max-width: 576px) {
+    .SharingBlock {
+        position: absolute;
+        left: 7%;
+        z-index: 3;
+        width: 86%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 577px) {
+    .SharingBlock {
+        position: absolute;
+        left: 3%;
+        z-index: 3;
+        width: 94%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .SharingBlock {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .SharingBlock {
+        width: 70%;
+        margin-left: 17rem;
+    }
+}

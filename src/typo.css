@@ -1,0 +1,101 @@
+.primary__heading {
+    display: block;
+    font-size: 3.6rem;
+    font-family: 'Montserrat';
+}
+
+.primary__heading--first {
+    font-weight: 300;
+}
+
+.primary__heading--second {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.secondary__heading {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+}
+
+.third__heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-bottom: 1.5rem;
+}
+
+.fourth__heading {
+    text-transform: uppercase;
+    color: #B4B4B4;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 576px) {
+    .primary__heading {
+        font-size: 3rem;
+    }
+
+    .secondary__heading {
+        font-size: 2.8rem;
+    }
+
+    .third__heading {
+        font-size: 1.8rem;
+    }
+
+    .fourth__heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .primary__heading {
+        font-size: 3rem;
+    }
+
+    .secondary__heading {
+        font-size: 2.2rem;
+    }
+
+    .third__heading {
+        font-size: 1.8rem;
+    }
+
+    .fourth__heading {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .primary__heading {
+        font-size: 2.5rem;
+    }   
+}
+
+@media (min-width: 992px) {
+    .primary__heading {
+        font-size: 3.5rem;
+    }
+
+    .secondary__heading {
+        font-size: 3rem;
+    }  
+}
+
+@media (min-width: 1200px) {
+    .third__heading {
+        font-size: 2rem;
+    }
+
+    .SharingItem img {
+        height: 15rem;
+    }
+}
+

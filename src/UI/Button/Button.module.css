@@ -1,0 +1,140 @@
+.Button,
+.Button:link,
+.Button:active {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.2px;
+    margin-top: 2rem;
+    transition: all 0.2s ease;
+    min-width: 15rem;
+    font-family: 'Montserrat';
+}
+
+.Button:hover {
+    transform: translateY(-4px);
+}
+
+.Button:active {
+    transform: translateY(-2px);
+}
+
+.primary {
+    text-transform: uppercase;
+    background-color: #000;
+    color: floralwhite;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+    margin-right: 2rem;
+}
+
+.second {
+    position: relative;
+    color: #0018EF;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 1px solid #0711FF;
+}
+
+.third {
+    color: #787878;
+    position: relative;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.third:after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #787878;
+    display: none;
+}
+
+.third:hover::after {
+    display: block;
+}
+
+.fourth {
+    color: #fff;
+    background-image: linear-gradient(121deg, #705dbd, #8e44ad);
+    box-shadow: 2px 5px 20px 0 #705dbd;
+    width: 16rem;
+    height: 5rem;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 576px) {
+    .Button,
+    .Button:link,
+    .Button:active {
+        min-width: 10rem;
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .secondary {
+        background-color: #fff;
+    }
+
+    .fourth {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .Button {
+        font-size: 1rem;
+        min-width: 10rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .primary {
+        margin-top: 1rem;
+    }
+
+    .fourth {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .Button {
+        font-size: 1.2rem;
+        min-width: 12rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    .primary {
+        margin-top: 1.5rem;
+    }
+
+    .fourth {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Button {
+        font-size: 1.4rem;
+        min-width: 12rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .fourth {
+        font-size: 1.8rem;
+    }
+
+    .third {
+        padding: 0;
+    }
+}
