@@ -1,0 +1,23 @@
+
+@media (max-width: 576px) {
+    .aboutHero {
+        justify-self: center;
+        width: 95%;
+    }
+
+    .short-call {
+        width: 35%;
+    }
+}
+
+@media (min-width: 577px) {
+    .aboutHero {
+        justify-self: center;
+        width: 95%;
+    }
+
+    .short-call {
+        width: 75%;
+    }
+}
+

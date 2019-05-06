@@ -11,23 +11,11 @@ const Navigation = () => (
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul className="navbar-nav ml-auto">
-                    <NavigationItem linkName="Project"/>
-                    <NavigationItem linkName="About"/>
-                    <NavigationItem linkName="Sharing"/>
-                    <NavigationItem linkName="Get in touch"/>
-                </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="Navbar">
+                <NavigationItem />
             </div>
         </div>
     </nav>
-{/* 
-    <ul className="navbar-nav ml-auto">
-                    <NavigationItem linkName="Project"/>
-                    <NavigationItem linkName="About"/>
-                    <NavigationItem linkName="Sharing"/>
-                    <NavigationItem linkName="Get in touch"/>
-                </ul> */}
     </div>
 )
 

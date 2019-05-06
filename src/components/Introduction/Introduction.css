@@ -1,0 +1,22 @@
+.Introduction {
+    background-color: #E9E9E9;
+}
+
+@media (max-width: 576px) {
+    .overview-pic img {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+    .overview-paragraph {
+        float: left;
+        display: block;
+    }
+}
+
+@media (min-width: 577px) {
+    .overview-pic img {
+        width: 100%;
+    }
+}

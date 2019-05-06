@@ -20,8 +20,16 @@ html {
 }
 
 p {
-    font-family: 'Avenir';
+    font-family: 'Bodoni 72';
     font-size: 1.8rem;
+}
+
+.ending-paragraph {
+    font-family: 'Avenir';
+    font-size: 3.8rem;
+    line-height: 4.7rem;
+    letter-spacing: -2.7px;
+    font-weight: 700;
 }
 
 .section {
@@ -30,6 +38,21 @@ p {
 
 .col-12 {
     padding-right: 0;
+}
+
+.custom-select {
+    min-height: 4.5rem;
+    border-radius: 0.4rem;
+    font-family: 'Montserrat';
+}
+
+.emoji {
+    font-size: 4rem;
+    transition: all 0.2s ease;
+}
+
+.emoji:hover {
+    transform: translateY(1rem);
 }
 
 @media (max-width: 576px) {
@@ -68,6 +91,6 @@ p {
     }
 
     p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }

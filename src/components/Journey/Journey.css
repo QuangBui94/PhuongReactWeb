@@ -1,0 +1,15 @@
+.journey-end {
+    margin-top: 10rem;
+}
+
+@media (max-width: 576px) {
+    .journey-end {
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .journey-end {
+        margin-top: 3rem;
+    }
+}

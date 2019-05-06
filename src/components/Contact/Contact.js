@@ -39,7 +39,7 @@ const Contact = () => (
                     </div>
                     <Button btnType="fourth">Send now</Button>
                 </form>
-                <h3 className="third__heading">That's it. Want to check a bit more about me? <br/><span style={{marginTop: '2rem', display: 'block'}}>👇</span></h3>
+                <p className="ending-paragraph">That's it. Want to check a bit more about me? <br/><span className="emoji" style={{marginTop: '2rem', display: 'block'}}>👇</span></p>
                 <Button btnType="primary">See my bio</Button>
                 <footer className="footer">
                     <div className="container">

@@ -1,0 +1,31 @@
+.video-info {
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.video-info > * {
+    display: inline-block;
+}
+
+.video-category {
+    text-transform: uppercase;
+    color: #0018EF;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.video-release {
+    color: #646464;
+    padding-left: 1rem;
+    border-left: 2px solid #646464;
+}
+
+.item-block {
+    width: 90%;
+}
+
+.item-block img {
+    height: 95%;
+}

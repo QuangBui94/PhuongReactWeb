@@ -13,7 +13,7 @@ const WorkItem = (props) => (
             <div className="col-12">
                 <h3 className="third__heading Work-heading">{props.heading}</h3>
             </div>
-            <div className="col-12 col-xl-11">{props.paragraph}</div>
+            <div className="col-12 col-xl-11"><p>{props.paragraph}</p></div>
             <div className="col-12"><Button btnType="second">{props.btnName}</Button></div>
         </div>
     </Aux>
